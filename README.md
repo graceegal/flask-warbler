@@ -1,6 +1,6 @@
 # Warbler
 
-Warbler is a Twitter clone for bird lovers, so tweet your thoughts, chirp your feelings, and warble your heart out!
+Warbler is a Twitter clone for bird lovers, so tweet your thoughts and warble it up!
 
 It is a full-stack web application built with Flask, Python, Jinja, WTForms, PostgresSQL and SQLAlchemy. Warbler is engineered with encryption and password hashing, user authentication and authorization, RESTful routing, as well as thoughtful database designs and models.
 
