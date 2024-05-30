@@ -25,13 +25,15 @@ It is a full-stack web application built with Flask, Python, Jinja, WTForms, Pos
 To get started with Warbler, follow the steps below:
 
 1. Clone the repository to your local machine.
-2. Create Python virtual environment: `python -m venv venv`
-3. Activate virtual environment: `source venv/bin/activate`
-4. Install dependencies with `pip install -r requirements.txt`
-5. Create database: `createdb warbler`
-6. Seed database: `python seed.py`
-7. Start server: `flask run`
-8. Open `http://localhost:5000/` to view project in the browser
+2. Navigate to warbler directory: `cd flask-warbler`
+3. Create Python virtual environment: `python -m venv venv`
+4. Activate virtual environment: `source venv/bin/activate`
+5. Install dependencies with `pip install -r requirements.txt`
+6. Add environment variables: create a `.env` file, following instructions in `.env.example` to get variables correctly set up
+7. Create database: `createdb warbler`
+8. Seed database: `python seed.py`
+9. Start server: `flask run`
+10. Open `http://localhost:5000/` to view project in the browser
 
 ## Testing
 
