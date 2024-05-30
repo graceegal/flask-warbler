@@ -40,7 +40,9 @@ To get started with Warbler, follow the steps below:
 Tests are run using unittest. To run the tests, follow the steps below:
 
 1. Open a terminal.
-2. Run `FLASK_DEBUG=False python -m unittest` to execute the tests.
+2. Ensure you are in warbler directory: `cd flask-warbler`.
+3. Create and activate virtual environment (follow steps 3-5 from "Getting Started").
+4. Run `FLASK_DEBUG=False python -m unittest` to execute the tests.
 
 ## Tech Stack
 
