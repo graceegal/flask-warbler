@@ -29,11 +29,11 @@ To get started with Warbler, follow the steps below:
 3. Create Python virtual environment: `python -m venv venv`
 4. Activate virtual environment: `source venv/bin/activate`
 5. Install dependencies with `pip install -r requirements.txt`
-6. Add environment variables: create a `.env` file, following instructions in `.env.example` to get variables correctly set up
-7. Create database: `createdb warbler`
+6. Create database: `createdb warbler`
+7. Add environment variables: create a `.env` file, following instructions in `.env.example` to get variables correctly set up
 8. Seed database: `python seed.py`
-9. Start server: `flask run`
-10. Open `http://localhost:5000/` to view project in the browser
+9. Start server: `flask run -p 5001`
+10. Open `http://localhost:5001/` to view project in the browser
 
 ## Testing
 
